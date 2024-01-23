@@ -1,0 +1,53 @@
+* { 
+    box-sizing: border-box; /* faz calcular as bordas por meio do padding */ 
+    font-family: 'Montserrat', sans-serif; /* colocado no index.html, linhas iniciais. 
+    Caso o montserrta nao funcione, tem a segunda opção: sans-serif */
+
+    margin: 0; /* tirar as margens dos elementos, oq permite retirar as diferenças de um navegador para outro, para ficar igual em todos os navegadores ou dispositivos, já q o navegador define a margem por padrão. */ 
+    padding: 0;
+}
+
+body{
+    color: #263138
+}
+
+header {
+    background-color: #FF9A6C;
+    display: flex; /* O flex permite usar as propriedades para alinhar e justificar, nas proximas linhas:     */
+    align-items: center; /* alinha itens na vertical */
+    justify-content: space-between;  /* HORIZONTAL , e dá um espaço entre os elemntos*/
+    margin: 10px;
+    border: 10px solid #FF9A6C;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+h1{
+    color: #FF9A6C;
+}
+
+/*  para alterar a cor de todos os links:   */
+
+            /*
+a {
+    color: #000000;   } 
+            */          
+
+/* para alterar só o "a" que está dentro do header: */
+
+header a {
+    color: #5500ff;
+}
+
+/* para alterar o "a"(tag para link) que está dentro de um nav q está dentro de um header: */
+header nav a {
+    color: #ffffff;
+    font-weight: 600; /* NEGRITO */
+    padding: 32px;
+    text-decoration: none; /* Tira o sublinhado */
+}
+
+ 
